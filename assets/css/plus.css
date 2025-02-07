@@ -1,0 +1,15 @@
+.circle-img {
+    width: 150px;
+    /* Kích thước chiều rộng của ảnh */
+    height: 150px;
+    /* Kích thước chiều cao của ảnh */
+    border-radius: 50%;
+    /* Làm tròn ảnh */
+    overflow: hidden;
+    /* Ẩn các phần ngoài */
+    object-fit: cover;
+    /* Đảm bảo ảnh không bị méo */
+    border: 3px solid #333;
+    /* Tạo viền cho ảnh (tùy chọn) */
+    margin-left: 90px;
+}
